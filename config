@@ -1,0 +1,5 @@
+IMG_NAME="slios"
+RELEASE="bullseye"
+ENABLE_SSH=1
+FIRST_USER_PASS="password"
+TARGET_HOSTNAME="listnsli"
