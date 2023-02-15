@@ -23,7 +23,7 @@ bootstrap(){
 	mkdir -p "${STAGE_WORK_DIR}/cache"
 	capsh $CAPSH_ARG -- -c "'${BOOTSTRAP_CMD}' $BOOTSTRAP_STR" || true
 	
-	cp -r "$2/debootstrap" "${STAGE_WORK_DIR}"
+	mv "$2/debootstrap" "${STAGE_WORK_DIR}"
 }
 export -f bootstrap
 
